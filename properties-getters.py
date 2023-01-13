@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+#Java way to do it
 class P:
     def __init__(self, x):
         self.set_x(x)
@@ -12,7 +12,7 @@ class P:
             self.__x = 1000
         else:
             self.__x = x
-
+#Pythonic way to do it!
 class P2:
     def __init__(self, x):
         self.x = x
